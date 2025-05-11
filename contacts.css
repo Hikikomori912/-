@@ -1,0 +1,36 @@
+body{
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    /*добавить картинку как фон*/
+    background-image: url("img/32.jpg");
+    /*не пофторяющая картинка*/
+    background-repeat: no-repeat;
+    /*картинка по шерине и длине*/
+    background-size: 100% 100%;
+    background-size: cover;
+}
+/* Сброс стилей списка */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+   /* Стилизация элементов списка */
+  nav button {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: aqua;
+  }
+   /* Стилизация ссылок */
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+   /* Стилизация ссылок при наведении */
+  nav a:hover {
+    color: #6b09db;
+  }
